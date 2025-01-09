@@ -1,0 +1,20 @@
+{
+    "name": "zamfara/crime-system",
+    "description": "Zamfara Crime Reporting System",
+    "type": "project",
+    "require": {
+        "tecnickcom/tcpdf": "^6.8",
+        "phpoffice/phpspreadsheet": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zamfara\\CrimeSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ADY-Capstone",
+            "email": "naallahu@gmail.com"
+        }
+    ]
+}

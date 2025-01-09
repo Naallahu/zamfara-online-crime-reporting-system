@@ -1,0 +1,27 @@
+.notification-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1;
+    border-radius: 0.35rem;
+}
+
+.notification-item {
+    border-bottom: 1px solid #e3e6f0;
+    padding: 0.5rem 1rem;
+}
+
+.notification-item:hover {
+    background-color: #f8f9fc;
+}
+
+.notification-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

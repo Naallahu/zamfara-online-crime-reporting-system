@@ -1,0 +1,13 @@
+.btn.active {
+    transform: scale(0.95);
+    transition: transform 0.2s;
+}
+
+.notification-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}

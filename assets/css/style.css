@@ -1,0 +1,195 @@
+/* Hero Section Enhancements */
+.hero-section {
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/zamfara-bg.jpg');
+}
+
+.search-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-box .form-control {
+    border-radius: 30px 0 0 30px;
+    border: none;
+    height: 54px;
+}
+
+.search-box .btn {
+    border-radius: 0 30px 30px 0;
+    width: 60px;
+}
+
+/* Category Cards */
+.category-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.category-card i {
+    color: #007bff;
+}
+
+
+
+/* Counter Section */
+.counter-item {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.counter-item h2 {
+    color: #007bff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .category-card {
+        margin-bottom: 15px;
+    }
+    
+    .counter-item {
+        margin-bottom: 15px;
+    }
+    
+    .news-card {
+        margin-bottom: 20px;
+    }
+}
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 30px 0 15px; /* Reduced from 60px to 30px top padding */
+}
+
+.footer h5 {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px; /* Reduced from 25px */
+}
+
+.footer ul li {
+    margin-bottom: 8px; /* Reduced from 15px */
+}
+
+.footer hr {
+    margin: 15px 0; /* Reduced from 30px */
+}
+
+/* Report Form Styles */
+.progress {
+    height: 8px;
+    background-color: #f0f0f0;
+}
+
+.file-upload-wrapper {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.file-upload-wrapper:hover {
+    border-color: #007bff;
+    background-color: #f8f9fa;
+}
+
+.upload-zone {
+    cursor: pointer;
+}
+
+.file-preview {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.preview-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.preview-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.preview-item .remove-file {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.voice-recorder {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+#waveform {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.feedback {
+    margin-top: 5px;
+    font-size: 0.875rem;
+}
+
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.is-valid {
+    border-color: #28a745;
+}
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrap {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+}

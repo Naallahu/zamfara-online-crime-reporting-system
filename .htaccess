@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /zamfara_crime_system/
+
+# Admin routes
+RewriteRule ^admin/(.*)$ pages/admin/$1 [L]
+
+# Static files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]

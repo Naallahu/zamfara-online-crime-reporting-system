@@ -1,0 +1,61 @@
+.activity-feed {
+    max-height: 500px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 123, 255, 0.5) transparent;
+}
+
+.feed-item {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.feed-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.activity-icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 123, 255, 0.1);
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.feed-item:hover .activity-icon {
+    transform: scale(1.1);
+}
+
+.activity-content {
+    line-height: 1.5;
+}
+
+.activity-meta {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.feed-item:hover .activity-meta {
+    opacity: 1;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
